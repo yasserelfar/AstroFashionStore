@@ -3,7 +3,7 @@ h2,
 h1 {
     color: rebeccapurple;
     text-align: center;
-    margin-top: 10px;
+   
     /* margin-left: 280px; */
 }
 
@@ -18,14 +18,15 @@ body {
     height: 100px;
     width: 100%;
     float: left;
-    margin-top: -15px;
+    margin-bottom: 2%;
+  
 }
 
 /* لوقو بتاع a stor */
 #logo {
-    width: 550px;
+    width: 200%;
     height: fit-content;
-    margin-top: 25px;
+ 
     float: left;
 }
 /* حرف A */
@@ -34,7 +35,7 @@ body {
     font-weight: bold;
     font-size: 50px;
 text-decoration: none;
-    margin-left: 15px;
+    margin-left: 1%;
     font-family: cursive;
 }
 
@@ -50,14 +51,15 @@ a{
 }
 
 #menue {
-    width: 450px;
+    width: 22%;
     float: right;
-    margin-top: 20px;
+   
+    margin-bottom: 2%;
 }
 
 #menue li {
     float: left;
-    width: 140px;
+    width: 30%;
     /*محاذاه النص او
      بمعني اخر مكانه هيبقي فين اللي هو هيبدا كتابه منين بس في نفس الاتجاه */
     text-align: center;
@@ -79,12 +81,13 @@ a{
 }
 
 #hid {
-    width: 50;
+    width: 50%;
     height: auto;
-    float: left;
+    
     font-size: 22;
     color: beige;
-    margin-top: 40px;
+   margin-left: auto;
+   margin-right: auto;
 }
 a{
     text-decoration: none;
@@ -92,7 +95,7 @@ a{
 
 .box {
     width: calc(94%/6);
-    height: 300px;
+    height: 100%;
     overflow: hidden;
     
     /* معناها بيتحرك بناءا علي نفسه بحيث انه ما ياثرش علي المحتوي اللي جواه*/
@@ -110,7 +113,7 @@ a{
 /*لعمل مسافات بين الصور */
 img {
     display: inline-block;
-    margin: 20px;
+    margin: 5%;
 }
 
 .trans {
@@ -133,7 +136,7 @@ img {
 
 .feature {
     text-align: center;
-    margin-top: 150px;
+    margin-top: 85%;
     transition: all .5s ease;
 }
 
@@ -146,13 +149,13 @@ img {
 
 .box:hover.feature {
 
-    margin-top: 250px;
+    margin-top: 100%;
     transition: all .5s ease;
 }
 
 .feature input {
-    width: 150px;
-    height: 35px;
+    width: 80%;
+    height: 232.75%;
     font-size: 17px;
 
 }
