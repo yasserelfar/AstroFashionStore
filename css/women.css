@@ -1,9 +1,9 @@
 /*heading of women*/
 h2,
 h1 {
-    color: rebeccapurple;
+
     text-align: center;
-   
+
     /* margin-left: 280px; */
 }
 
@@ -13,28 +13,30 @@ body {
     margin: 0%;
     font-family: sans-serif;
 }
+
 /* المنيوو الكارت والريجيستر */
 #heade {
     height: 100px;
     width: 100%;
     float: left;
     margin-bottom: 2%;
-  
+
 }
 
 /* لوقو بتاع a stor */
 #logo {
     width: 200%;
     height: fit-content;
- 
+
     float: left;
 }
+
 /* حرف A */
 #ist1 {
     color: black;
     font-weight: bold;
-    font-size: 50px;
-text-decoration: none;
+    font-size: 312%;
+    text-decoration: none;
     margin-left: 1%;
     font-family: cursive;
 }
@@ -43,35 +45,38 @@ text-decoration: none;
     text-decoration: none;
     color: rebeccapurple;
     font-weight: bold;
-    font-size: 35;
+    font-size: 112%;
+
     font-family: cursive;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
 #menue {
     width: 22%;
     float: right;
-   
+
     margin-bottom: 2%;
 }
 
 #menue li {
     float: left;
-    width: 30%;
+    width: 18%;
+    height: 200%;
     /*محاذاه النص او
      بمعني اخر مكانه هيبقي فين اللي هو هيبدا كتابه منين بس في نفس الاتجاه */
     text-align: center;
     /*دي لتجنب انه يقوم بتنسيق القايمه من نفسه*/
     list-style: none;
-    font-size: 25px;
+    font-size: 150%;
     border-left: 1px solid, black;
 }
 
 
 #menue li:hover {
-    font-size: 35px;
+    font-size: 212%;
     transition: all .5s ease;
 }
 
@@ -83,13 +88,14 @@ a{
 #hid {
     width: 50%;
     height: auto;
-    
-    font-size: 22;
-    color: beige;
-   margin-left: auto;
-   margin-right: auto;
+
+    font-size: 112%;
+    color: cadetblue;
+    margin-left: auto;
+    margin-right: auto;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
@@ -97,7 +103,7 @@ a{
     width: calc(94%/6);
     height: 100%;
     overflow: hidden;
-    
+
     /* معناها بيتحرك بناءا علي نفسه بحيث انه ما ياثرش علي المحتوي اللي جواه*/
     position: relative;
     /* بتخليها تعوم من اتجاه لاتجاه ذي المحاذاه كدا    */
@@ -156,6 +162,6 @@ img {
 .feature input {
     width: 80%;
     height: 232.75%;
-    font-size: 17px;
+    font-size: 110%;
 
 }
