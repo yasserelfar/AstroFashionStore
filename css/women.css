@@ -1,97 +1,100 @@
+/*heading of women*/
 h2,
 h1 {
-    color: #EAB2A0;
+    color: rebeccapurple;
     text-align: center;
-    margin-top: 62.5%;
-    margin-left: 1750%;
+    margin-top: 10px;
+    /* margin-left: 280px; */
 }
 
 
 body {
-    background-color:#2D4356;
     padding: 0%;
     margin: 0%;
-    font-family :sans-serif;
+    font-family: sans-serif;
 }
-
+/* المنيوو الكارت والريجيستر */
 #heade {
-    height: 625%;
+    height: 100px;
     width: 100%;
     float: left;
-    margin-top: -93.75%;
+    margin-top: -15px;
 }
 
-
+/* لوقو بتاع a stor */
 #logo {
-    width: 3437.5%;
+    width: 550px;
     height: fit-content;
-    margin-top: 165.25%;
+    margin-top: 25px;
     float: left;
 }
-
+/* حرف A */
 #ist1 {
-    color: #3D0000;
+    color: black;
     font-weight: bold;
-    font-size: 312.5%;
+    font-size: 50px;
 text-decoration: none;
-    margin-left:93.75%;
+    margin-left: 15px;
     font-family: cursive;
 }
 
 #ist2 {
     text-decoration: none;
-    color: #435B66;
+    color: rebeccapurple;
     font-weight: bold;
-    font-size: 218.75%;
+    font-size: 35;
     font-family: cursive;
 }
 a{
     text-decoration: none;
 }
+
 #menue {
-    width: 2812.5%;
+    width: 450px;
     float: right;
-    margin-top: 125%;
+    margin-top: 20px;
 }
 
 #menue li {
     float: left;
-    width: 875%;
+    width: 140px;
     /*محاذاه النص او
      بمعني اخر مكانه هيبقي فين اللي هو هيبدا كتابه منين بس في نفس الاتجاه */
     text-align: center;
     /*دي لتجنب انه يقوم بتنسيق القايمه من نفسه*/
     list-style: none;
-    font-size: 156.25%;
-   
+    font-size: 25px;
+    border-left: 1px solid, black;
 }
 
 
 #menue li:hover {
-    font-size: 218.75%;
+    font-size: 35px;
     transition: all .5s ease;
 }
 
 #menue li a {
-    color: #435B66;
+    color: black;
     text-decoration: none;
 }
 
 #hid {
-    width: 312.5;
+    width: 50;
     height: auto;
     float: left;
-    font-size: 137.5;
+    font-size: 22;
     color: beige;
-    margin-top: 250%;
+    margin-top: 40px;
+}
+a{
+    text-decoration: none;
 }
 
 .box {
     width: calc(94%/6);
-    height: 1875%;
+    height: 300px;
     overflow: hidden;
-    margin: 0px, 112.5%, 187.5%, 0px;
-    margin-left: 106.25%;
+    
     /* معناها بيتحرك بناءا علي نفسه بحيث انه ما ياثرش علي المحتوي اللي جواه*/
     position: relative;
     /* بتخليها تعوم من اتجاه لاتجاه ذي المحاذاه كدا    */
@@ -107,11 +110,11 @@ a{
 /*لعمل مسافات بين الصور */
 img {
     display: inline-block;
-    margin: 125%;
+    margin: 20px;
 }
 
 .trans {
-    background: rgba(9, 9, 9, 0.5);
+    background: rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 100%;
     top: 0;
@@ -130,7 +133,7 @@ img {
 
 .feature {
     text-align: center;
-    margin-top: 937.5%;
+    margin-top: 150px;
     transition: all .5s ease;
 }
 
@@ -143,13 +146,13 @@ img {
 
 .box:hover.feature {
 
-    margin-top: 1562.5%;
+    margin-top: 250px;
     transition: all .5s ease;
 }
 
 .feature input {
-    width: 937.5%;
-    height: 218.75%;
-    font-size: 106.25;
+    width: 150px;
+    height: 35px;
+    font-size: 17px;
 
 }
