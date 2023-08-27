@@ -15,7 +15,7 @@ body {
 }
 
 #heade {
-    height: 100px;
+    height: 625%;
     width: 100%;
     float: left;
     margin-top: -93.75%;
@@ -23,7 +23,7 @@ body {
 
 
 #logo {
-    width: 550px;
+    width: 3437.5%;
     height: fit-content;
     margin-top: 165.25%;
     float: left;
@@ -42,14 +42,14 @@ text-decoration: none;
     text-decoration: none;
     color: #435B66;
     font-weight: bold;
-    font-size: 35;
+    font-size: 218.75%;
     font-family: cursive;
 }
 a{
     text-decoration: none;
 }
 #menue {
-    width: 450px;
+    width: 2812.5%;
     float: right;
     margin-top: 125%;
 }
@@ -68,7 +68,7 @@ a{
 
 
 #menue li:hover {
-    font-size: 35px;
+    font-size: 218.75%;
     transition: all .5s ease;
 }
 
@@ -78,10 +78,10 @@ a{
 }
 
 #hid {
-    width: 50;
+    width: 312.5;
     height: auto;
     float: left;
-    font-size: 22;
+    font-size: 137.5;
     color: beige;
     margin-top: 250%;
 }
@@ -130,7 +130,7 @@ img {
 
 .feature {
     text-align: center;
-    margin-top: 937.5;
+    margin-top: 937.5%;
     transition: all .5s ease;
 }
 
@@ -150,6 +150,6 @@ img {
 .feature input {
     width: 937.5%;
     height: 218.75%;
-    font-size: 17px;
+    font-size: 106.25;
 
 }
