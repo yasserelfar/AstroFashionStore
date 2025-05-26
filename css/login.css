@@ -19,7 +19,7 @@ form {
     background: rgba(0, 0, 0, .5);
     /*يستخدم لحواف الفورم بيتحكم في الانحنا */
     border-radius: 150px;
-
+    text-align: center;
 
 }
 
@@ -58,7 +58,7 @@ input[type="text"],
     border-bottom: 2px solid #9992f6;
     background: none;
     color: #9992f6;
-    margin-left: 50px;
+    
 
 }
 
@@ -82,10 +82,10 @@ input[value="login"] {
     border: none;
     outline: none;
     color: #fff;
-    border-radius: 15;
-    font-size: 20;
+    border-radius: 15px;
+    font-size: 20px;
     /* margin-top: 500; */
-    margin-left: 476px;
+  
 }
 
 /* hover تستخد في عمل انيميشن بحيث لما تقف علي الصوره يحصل حاجه */
