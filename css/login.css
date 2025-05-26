@@ -9,6 +9,9 @@ body {
 
 
 form {
+     position: absolute;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     width: 350px;
     height: 520px;
@@ -69,9 +72,7 @@ input[type="password"] {
 }
 
 input[value="login"] {
-    position: absolute; 
-    top: 450px;
-    left: 330px;
+   
     width: 131px;
     height: 36px;
     background-color: #9992f6;
